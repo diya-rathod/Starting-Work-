@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            
+            
+        }
+        table{
+            width: 100%;
+            border-spacing: 0px;
+        }
+        th{
+            padding: 8px;
+            border-color:  black;  
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+    <div class="container">
+    <table border="2px">
+        <tr align="center">
+            <th>Home</th>
+            <th>About</th>
+            <th>Contact</th>
+            <th>Help</th>
+            <th>Store</th>
+            <th style="background-color: red;">Menu</th>
+        </tr>
+        <tr>
+            <td colspan="6"><img src="image_1.jpeg" alt="Background Image" style="width: 100%;height: 250px;"></td>
+        </tr>
+        <tr>
+            <td colspan="6" style="text-align: center;background-color: rgb(255, 144, 216);">Contact-Us-Page</td>
+        </tr>
+        <tr>
+            <td colspan="6"><img src="contact.jpeg" alt="Background Image" style="width: 100%;height: 250px;"></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;background-color: rgb(144, 218, 255);padding: 5px;font-size: 14px;">
+                First Name : <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+            </td>
+            <td colspan="3" style="text-align: center;background-color: rgb(144, 218, 255);padding: 5px;font-size: 14px;">
+                Last Name : <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;background-color: rgb(144, 218, 255);padding: 5px;font-size: 14px;">
+                Email : <input type="email" name="fname" id="fname" placeholder="Enter Email Address">
+            </td>
+            <td colspan="3" style="text-align: center;background-color: rgb(144, 218, 255);padding: 5px;font-size: 14px;">
+                Phone Number : <input type="mobile" name="lname" id="lname" placeholder="Enter Phone Number">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;background-color: rgb(144, 218, 255);padding: 5px;font-size: 14px;">
+                City : 
+                <select name="City" id="city" style="width: 150px;">
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Ahmedabad">Surat</option>
+                    <option value="Ahmedabad">Bhavnagar</option>
+                    <option value="Ahmedabad">Gandhinagar</option>
+                    <option value="Ahmedabad">Rajkot</option>
+                </select>
+            </td>
+            <td colspan="3" style="text-align: center;background-color: rgb(144, 218, 255);padding: 5px;font-size: 14px;">
+                Gender :
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Other">Other
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470027.29249605886!2d72.24934689284169!3d23.020532730962927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1725628366765!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+            <td colspan="3">
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/a3ICNMQW7Ok?si=CTs2eeqa7LLELZHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+        </tr>
+    </table>
+    </div>
+</div>
+</body>
+
+</html>
